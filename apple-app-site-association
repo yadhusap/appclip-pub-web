@@ -1,12 +1,12 @@
 {
   "appclips": {
-    "apps": ["TEAMID.com.successfactors.mobile.SFTestAppClip"]
+    "apps": ["BKLUW64YWG.com.successfactors.mobile.SFTestAppClip"]
   },
   "applinks": {
     "apps": [],
     "details": [
       {
-        "appID": "TEAMID.com.successfactors.mobile",
+        "appID": "BKLUW64YWG.com.successfactors.mobile",
         "paths": [
           "/experience/*",
           "/appclip",
@@ -18,7 +18,7 @@
         ]
       },
       {
-        "appID": "TEAMID.com.successfactors.mobile.SFTestAppClip",
+        "appID": "BKLUW64YWG.com.successfactors.mobile.SFTestAppClip",
         "paths": [
           "/experience/*",
           "/appclip",
