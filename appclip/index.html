@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFAppClipDemo - App Clip Experience</title>
+    
+    <!-- App Clip Meta Tags -->
+    <meta name="apple-itunes-app" content="app-id=123456789, app-clip-bundle-id=com.SuccessFactors.SuccessFactorsD.Clip">
+    <meta name="apple-itunes-app" content="app-clip-display=card">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="SFAppClipDemo - App Clip Experience">
+    <meta property="og:description" content="Experience SFAppClipDemo instantly with our App Clip. Quick access to HR features.">
+    <meta property="og:image" content="https://yadhusap.github.io/appclip-pub-web/sf-preview.jpg">
+    <meta property="og:url" content="https://yadhusap.github.io/appclip-pub-web/appclip">
+    <meta property="og:type" content="website">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 3rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .app-clip-banner {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .app-clip-banner h2 {
+            margin-bottom: 1rem;
+            color: #ffd700;
+        }
+        
+        .feature-list {
+            text-align: left;
+            margin: 1.5rem 0;
+        }
+        
+        .feature-list li {
+            margin: 0.5rem 0;
+            padding-left: 1rem;
+        }
+        
+        .back-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .demo-info {
+            background: rgba(74, 144, 226, 0.2);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🚀</div>
+        <h1>SFAppClipDemo</h1>
+        <p class="subtitle">App Clip Experience Ready!</p>
+        
+        <div class="app-clip-banner">
+            <h2>🍎 App Clip Active</h2>
+            <p>This page is configured to trigger the SFAppClipDemo App Clip when accessed from iOS Safari.</p>
+            
+            <ul class="feature-list">
+                <li>✅ Instant access without full app download</li>
+                <li>✅ Quick HR feature access</li>
+                <li>✅ Seamless user experience</li>
+                <li>✅ Smart App Banner integration</li>
+            </ul>
+        </div>
+        
+        <div class="demo-info">
+            <strong>🧪 Testing Instructions:</strong><br>
+            1. Open this page in Safari on iOS 14+ device/simulator<br>
+            2. Look for the App Clip card at the top of Safari<br>
+            3. Tap "Open" to launch the SFAppClipDemo App Clip
+        </div>
+        
+        <a href="../" class="back-btn">← Back to Main Site</a>
+    </div>
+    
+    <script>
+        // Log page load for debugging
+        console.log('🚀 SFAppClipDemo App Clip page loaded');
+        console.log('🌐 URL:', window.location.href);
+        console.log('📱 This page should trigger App Clip in iOS Safari');
+        
+        // Check if page was loaded with App Clip context
+        if (window.location.search.includes('appclip') || window.location.hash.includes('appclip')) {
+            console.log('✅ App Clip context detected');
+        }
+    </script>
+</body>
+</html>

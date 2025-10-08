@@ -8,19 +8,13 @@
       {
         "appID": "BKLUW64YWG.com.SuccessFactors.SuccessFactorsD",
         "paths": [
-          "/experience/*",
           "/appclip",
-          "/appclip/*",
-          "/performance",
-          "/learning", 
-          "/career",
-          "/recognition"
+          "/appclip/*"
         ]
       },
       {
         "appID": "BKLUW64YWG.com.SuccessFactors.SuccessFactorsD.Clip",
         "paths": [
-          "/experience/*",
           "/appclip",
           "/appclip/*"
         ]
