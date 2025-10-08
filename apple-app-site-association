@@ -1,0 +1,30 @@
+{
+  "appclips": {
+    "apps": ["TEAMID.com.successfactors.mobile.SFTestAppClip"]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID.com.successfactors.mobile",
+        "paths": [
+          "/experience/*",
+          "/appclip",
+          "/appclip/*",
+          "/performance",
+          "/learning", 
+          "/career",
+          "/recognition"
+        ]
+      },
+      {
+        "appID": "TEAMID.com.successfactors.mobile.SFTestAppClip",
+        "paths": [
+          "/experience/*",
+          "/appclip",
+          "/appclip/*"
+        ]
+      }
+    ]
+  }
+}
